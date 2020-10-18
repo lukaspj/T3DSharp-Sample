@@ -120,8 +120,6 @@ namespace T3DSharpFramework.Interop
             while (engineTick() > 0) {
             }
 
-            SimDictionary.Shutdown();
-
             engineShutdown();
 
             SimDictionary.Shutdown();
