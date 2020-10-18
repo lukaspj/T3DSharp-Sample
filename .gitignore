@@ -9,3 +9,9 @@
 obj/
 bin/
 *.user
+*.deps.json
+*.exe
+*.pdb
+*.runtimeconfig*
+*SOS_README.md
+console.log
