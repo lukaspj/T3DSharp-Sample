@@ -1,0 +1,11 @@
+.idea/
+.vs/
+*.dll
+!OpenAL32.dll
+!SDL2d.dll
+!Stock_DEBUG.dll
+!ucrtbase.dll
+!WindowsBase.dll
+obj/
+bin/
+*.user

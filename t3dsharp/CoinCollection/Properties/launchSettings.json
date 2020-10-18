@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CoinCollection": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

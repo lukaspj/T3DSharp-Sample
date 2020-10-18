@@ -1,0 +1,12 @@
+<LevelAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="ExampleLevel"
+    LevelFile="@assetFile=ExampleLevel.mis"
+    LevelName="Example Level"
+    isSubScene="false"
+    description="An example level asset"
+    staticObjectAssetDependency0="@Asset=CoinCollection:CoinTerrain"
+    VersionId="1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../../taml_schema.xml" />

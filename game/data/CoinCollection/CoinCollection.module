@@ -1,0 +1,14 @@
+<ModuleDefinition
+	ModuleId="CoinCollection"
+	VersionId="1"
+	Description="Starter module for CoinCollection gameplay."
+	CreateFunction="onCreate"
+	DestroyFunction="onDestroy"
+	Group="Game"
+    Dependencies="UI=1">
+	<DeclaredAssets
+        canSave="true"
+        canSaveDynamicFields="true"
+        Extension="asset.taml"
+        Recurse="true" />
+</ModuleDefinition>

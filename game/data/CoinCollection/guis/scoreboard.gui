@@ -1,0 +1,75 @@
+%guiContent = new GuiControl(ScoreBoardGUI) {
+   position = "0 0";
+   extent = "1024 768";
+   profile = "GuiModelessDialogProfile";
+   tooltipProfile = "GuiToolTipProfile";
+   isContainer = "1";
+   canSaveDynamicFields = "1";
+      enabled = "1";
+      noCursor = "1";
+	  
+   new GuiPanel() {
+      docking = "None";
+      position = "370 271";
+      extent = "283 226";
+      horizSizing = "center";
+      vertSizing = "height";
+      profile = "ScoreBoardProfile";
+      tooltipProfile = "GuiToolTipProfile";
+	  
+      new GuiTextCtrl() {
+	     text = "Coins";
+         maxLength = "255";
+         position = "104 2";
+         extent = "33 18";
+         profile = "HudTextBoldProfile";
+         tooltipProfile = "GuiToolTipProfile";
+      };
+      new GuiTextCtrl() {
+         text = "Kills";
+         maxLength = "255";
+         position = "158 2";
+         extent = "30 18";
+         profile = "HudTextBoldProfile";
+         tooltipProfile = "GuiToolTipProfile";
+      };
+      new GuiTextCtrl() {
+         text = "Deaths";
+         maxLength = "255";
+         position = "206 2";
+         extent = "37 18";
+         profile = "HudTextBoldProfile";
+         tooltipProfile = "GuiToolTipProfile";
+      };
+      new GuiScrollCtrl() {
+         willFirstRespond = "1";
+         hScrollBar = "alwaysOff";
+         vScrollBar = "dynamic";
+         lockHorizScroll = "1";
+         lockVertScroll = "0";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+         mouseWheelScrollSpeed = "-1";
+         position = "0 24";
+         extent = "228 202";
+         horizSizing = "width";
+         vertSizing = "height";
+         profile = "ChatHudScrollProfile";
+         tooltipProfile = "GuiToolTipProfile";
+         isContainer = "1";
+		 
+		 new GuiTextListCtrl(ScoreBoardGUIList) {
+            columns = "0 98 153 200";
+            fitParentWidth = "1";
+            clipColumnText = "0";
+            position = "0 0";
+            extent = "228 8";
+            horizSizing = "width";
+            vertSizing = "height";
+            profile = "HudTextNormalProfile";
+            tooltipProfile = "GuiToolTipProfile";
+            isContainer = "1";
+         };
+      };
+   };
+};

@@ -1,0 +1,11 @@
+<LevelAsset
+    canSave="true"
+    canSaveDynamicFields="true"
+    AssetName="CoinCollectionLevel"
+    LevelFile="@assetFile=CoinCollectionLevel.mis"
+    LevelName="CoinCollection Level"
+    isSubScene="false"
+    description="An CoinCollection level asset"
+    VersionId="1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../../taml_schema.xml" />
