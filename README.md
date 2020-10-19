@@ -150,7 +150,7 @@ var str = taggedStr.DeTag();
 ```c#
 // Colors in TorqueScript are supported by special escaped characters like \c0.
 // In order to implement this similarly in C#, we use string extensions:
-"\c0SomeText".ColorEscape();
+"\\c0SomeText".ColorEscape();
 ```
 
 #### Call engine functions
