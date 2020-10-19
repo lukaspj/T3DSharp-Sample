@@ -1,4 +1,4 @@
-# cT3DSharp-Sample
+# T3DSharp-Sample
 
 ## What is this?
 
