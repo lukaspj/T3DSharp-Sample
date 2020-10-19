@@ -169,7 +169,7 @@ Global.Echo("Some log message here");
 string arg1 = "foo";
 string arg2 = "bar";
 Global.Call("someTorqueScriptFunction", foo, bar);
-Global.Eval($"someTorequScriptFunction({foo}, {bar})");
+Global.Eval($"someTorqueScriptFunction({foo}, {bar});");
 ```
 
 ### C# code-patterns
